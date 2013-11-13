@@ -5,9 +5,11 @@ body{
 ul{
 	margin: -8px 0 -8px 0;
 	padding: 15px 0 10px 0;
+	background-color: #C0AECA;
 }
 li{
 	margin-right: 20px;
+	color: #7e349d
 }
 
 .menu {
@@ -20,4 +22,9 @@ li{
 }
 .menu ul li a {
 	text-decoration: none;
+}
+
+header {
+	text-align: center;
+	background-image: 
 }
