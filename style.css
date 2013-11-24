@@ -1,12 +1,20 @@
 body{
 	margin: 0;
 }
+header {
+	text-align: center;
+	font-family: 'Sacramento', cursive;
+	font-size: 36px;
+	margin-top: -40px;
+	margin-bottom: -74px;
+	color: #DB41E9;	
+}
 
 ul{
 	margin: -8px 0 -8px 0;
 	padding: 15px 0 10px 0;
-	background-color: #C0AECA;
 }
+
 li{
 	margin-right: 20px;
 	color: #7e349d
@@ -22,9 +30,4 @@ li{
 }
 .menu ul li a {
 	text-decoration: none;
-}
-
-header {
-	text-align: center;
-	background-image: 
 }
