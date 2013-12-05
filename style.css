@@ -1,13 +1,10 @@
 body{
 	margin: 0;
 }
-header {
-	text-align: center;
-	font-family: 'Sacramento', cursive;
-	font-size: 36px;
-	margin-top: -40px;
-	margin-bottom: -74px;
-	color: #DB41E9;	
+
+header{
+	border-bottom-style: dashed;
+	border-width: 1px;
 }
 
 ul{
@@ -30,4 +27,17 @@ li{
 }
 .menu ul li a {
 	text-decoration: none;
+}
+
+.home {
+	margin: 40px 100px 40px 100px;
+}
+
+.header {
+	text-align: center;
+	font-family: 'Sacramento', cursive;
+	font-size: 36px;
+	margin-top: -40px;
+	margin-bottom: -74px;
+	color: #DB41E9;	
 }
