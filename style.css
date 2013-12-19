@@ -1,26 +1,37 @@
 body{
 	margin: 0;
+	margin-top: -48px;
 }
 
 ul{
 	margin: -8px 0 -8px 0;
 	padding: 15px 0 10px 0;
+	color: #FFF;
 }
 
 li{
 	margin-right: 20px;
-	color: #7e349d
+}
+
+header{
+	background: -webkit-gradient(linear, left top, left bottom, from(#A681B8), to(#FFF)) repeat-X;
+}
+
+a {
+	color: #FF8E4F;
+	text-shadow: #000 1px 1px;
 }
 
 .menu {
 	text-align: center;
 	font-size: 24px;
-	background: -webkit-gradient(linear, left top, left bottom, from(#D3A7E9), to(#E5CEEC)) repeat-X;
 }
+
 .menu ul li {
 	list-style:none;
 	display: inline;
 }
+
 .menu ul li a {
 	text-decoration: none;
 }
@@ -30,11 +41,11 @@ li{
 }
 
 .header {
-	background: -webkit-gradient(linear, left top, left bottom, from(#A681B8), to(#E5CEEC)) repeat-X;
 	text-align: center;
-	font-family: 'Sacramento', cursive;
+	font-family: 'Sacramento', 'cursive';
 	font-size: 36px;
 	margin-top: -40px;
 	margin-bottom: -74px;
-	color: #DB41E9;	
+	color: #DD5858;
+	text-shadow: #000 1px 1px;
 }
