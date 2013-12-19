@@ -2,11 +2,6 @@ body{
 	margin: 0;
 }
 
-header{
-	border-bottom-style: dashed;
-	border-width: 1px;
-}
-
 ul{
 	margin: -8px 0 -8px 0;
 	padding: 15px 0 10px 0;
@@ -20,6 +15,7 @@ li{
 .menu {
 	text-align: center;
 	font-size: 24px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#D3A7E9), to(#E5CEEC)) repeat-X;
 }
 .menu ul li {
 	list-style:none;
@@ -34,6 +30,7 @@ li{
 }
 
 .header {
+	background: -webkit-gradient(linear, left top, left bottom, from(#A681B8), to(#E5CEEC)) repeat-X;
 	text-align: center;
 	font-family: 'Sacramento', cursive;
 	font-size: 36px;
