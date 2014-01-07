@@ -4,8 +4,8 @@
 	height: 200px;
 	border-radius: 50%;
 	margin-left: 65%;
-	margin-top: 5%;	
-	transition-duration: 1s; 
+	margin-top: 5%;
+	transition-duration: 1s;
 	-webkit-transition-duration: 1s;
 	-moz-transition-duration: 1s;
 	-o-transition-duration: 1s;
@@ -16,9 +16,9 @@
 
 .logo:hover
 {
-    -webkit-transform:rotate(360deg);
-    -moz-transform:rotate(360deg);
-    -o-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
 }
 
 .redes {
@@ -28,8 +28,8 @@
 }
 
 body{
- 	background: url(images/dente-de-leao.jpg) no-repeat center center fixed;
-	background-size: cover; 
+	background: url(images/dente-de-leao.jpg) no-repeat center center fixed;
+	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-ms-background-size: cover;
