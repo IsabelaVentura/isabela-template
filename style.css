@@ -1,28 +1,3 @@
-.logo {
-	background-color: #d5d5f4;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	margin-left: 65%;
-	margin-top: 5%;
-	transition-duration: 1s;
-	-webkit-transition-duration: 1s;
-	-moz-transition-duration: 1s;
-	-o-transition-duration: 1s;
-}
-
-.logo:hover {
-	-webkit-transform:rotate(360deg);
-	-moz-transform:rotate(360deg);
-	-o-transform:rotate(360deg);
-}
-
-.redes {
-	margin-left: 68%;
-	margin-top: 10px;
-	height: 31px;
-}
-
 body{
 	background: url(images/dente-de-leao.jpg) no-repeat center center fixed;
 	background-size: cover;
@@ -50,4 +25,29 @@ ul {
 
 li {
 	display: inline;
+}
+
+.logo {
+	background-color: #d5d5f4;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-left: 65%;
+	margin-top: 5%;
+	transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+}
+
+.logo:hover {
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+}
+
+.redes {
+	margin-left: 68%;
+	margin-top: 10px;
+	height: 31px;
 }
