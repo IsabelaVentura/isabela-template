@@ -6,7 +6,7 @@ body{
 	-ms-background-size: cover;
 	-o-background-size: cover;
 	margin-top: 15%;
-	margin-left: -5%;
+	margin-right: 15%;
 }
 
 h1{
@@ -34,7 +34,7 @@ li {
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
-	margin-left: 65%;
+	margin-left: 70%;
 	margin-top: 5%;
 	transition-duration: 1s;
 	-webkit-transition-duration: 1s;
@@ -50,7 +50,7 @@ li {
 }
 
 .redes {
-	margin-left: 68%;
+	margin-left: 74%;
 	margin-top: 10px;
 	height: 31px;
 }
@@ -58,7 +58,7 @@ li {
 .sobre {
 	background-color: rgba(236, 207, 239, 0.5);
 	text-align: center;
-	margin-top: -161px;
+	margin-top: -21%;
 	border-radius: 15px;
 	padding-bottom: 10px;
 	padding-top: 10px;
