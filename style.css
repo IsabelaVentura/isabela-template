@@ -1,15 +1,31 @@
+
 .logo {
 	background-color: #d5d5f4;
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 	border-radius: 50%;
 	margin-left: 65%;
-	margin-top: 5%;
+	margin-top: 5%;	
+	-webkit-transition-duration: 1s;
+    -moz-transition-duration: 1;
+    -o-transition-duration: 1s;
+    transition-duration: 1s; 
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+}
+
+.logo:hover  
+{
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
 }
 
 .redes {
-	margin-left: 67%;
+	margin-left: 68%;
 	margin-top: 10px;
+	height: 31px;
 }
 
 
@@ -17,9 +33,8 @@ h1{
 	font-size: 32px;
 	text-align: center;
 	padding-top: 30%;
-	width: 205px;
-	padding-left: 19px;
-	padding-top: 90px;
+	width: 100%;
+	padding-top: 33%;
 }
 
 ul {
