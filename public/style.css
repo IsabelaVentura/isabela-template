@@ -37,9 +37,11 @@ li {
 }
 
 .container {
-	margin-bottom: 90px;
-	margin-left:  120px;
-	margin-right: 120px;
+	width: 700px;
+	position: absolute;
+	left: 50%;
+	margin-left: -350px;
+	margin-top: 60px;
 }
 
 .logo {
