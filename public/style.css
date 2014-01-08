@@ -28,6 +28,14 @@ li {
 	display: inline;
 }
 
+@-webkit-keyframes balanco {
+	0% {-webkit-transform: rotate(-10deg); }
+	25% {-webkit-transform: rotate(30deg); }
+	50% {-webkit-transform: rotate(-40deg); }
+	75% {-webkit-transform: rotate(30deg); }
+	100% {-webkit-transform: rotate(-10deg); }
+}
+
 .container {
 	margin: 90px 120px;
 }
@@ -45,10 +53,10 @@ li {
 }
 
 .logo:hover {
-	transform:rotate(360deg);
-	-webkit-transform:rotate(360deg);
-	-moz-transform:rotate(360deg);
-	-o-transform:rotate(360deg);
+	animation: balanco 2s alternate infinite linear;
+	-webkit-animation: balanco 2s alternate infinite linear;
+	-moz-animation: balanco 2s alternate infinite linear;
+	-o--animation: balanco 2s alternate infinite linear;
 }
 
 .redes {
