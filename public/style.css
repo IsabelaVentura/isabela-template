@@ -39,6 +39,7 @@ li {
 .container {
 	width: 700px;
 	position: absolute;
+	top: 25%;
 	left: 50%;
 	margin-left: -350px;
 	margin-top: 60px;
@@ -67,7 +68,7 @@ li {
 	width: 0px;
 	height: 0px;
 	margin-right: -6%;
-	margin-top: 28%;
+	margin-top: 31%;
 }
 
 .sobre {
@@ -83,5 +84,5 @@ li {
 	font-size: 18px;
 	width: 56%;
 	margin-left: 5%;
-	margin-top: 15%;
+	margin-top: 3%;
 }
