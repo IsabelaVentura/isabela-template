@@ -5,12 +5,11 @@ body{
 	-moz-background-size: cover;
 	-ms-background-size: cover;
 	-o-background-size: cover;
-	margin-right: 15%;
 }
 
 h1{
 	text-align: center;
-	padding-top: 27%;
+	padding-top: 10%;
 	width: 100%;
 	font-family: "Belleza", "cursive";
 	font-size: 49px;
@@ -21,8 +20,6 @@ h1{
 
 ul {
 	list-style-type: none;
-	margin-bottom: 0;
-	margin-top: 0;
 	width: 69px;
 	padding-left: 30px;
 }
@@ -31,17 +28,20 @@ li {
 	display: inline;
 }
 
+.container {
+	margin: 90px 120px;
+}
+
 .logo {
 	background-color: rgba(255, 19, 21, 0.5);
 	width: 220px;
 	height: 220px;
 	border-radius: 50%;
-	margin-left: 70%;
-	margin-top: 15%;
 	transition-duration: 1.5s;
 	-webkit-transition-duration: 1.5s;
 	-moz-transition-duration: 1.5s;
 	-o-transition-duration: 1.5s;
+	float: right;
 }
 
 .logo:hover {
@@ -52,23 +52,25 @@ li {
 }
 
 .redes {
-	margin-left: 76%;
-	margin-top: 10px;
-	height: 31px;
+	float: right;
+	width: 0px;
+	height: 0px;
+	margin-right: -6%;
+	margin-top: 28%;
 }
 
 .sobre {
 	background-color: rgba(236, 207, 239, 0.5);
 	text-align: center;
-	margin-top: -24%;
 	border-radius: 15px;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
 	float: left;
-	margin-right: 36%;
-	margin-left: 27%;
 	font-family: "cursive";
 	font-size: 18px;
+	width: 56%;
+	margin-left: 5%;
+	margin-top: 15%;
 }
