@@ -29,11 +29,11 @@ li {
 }
 
 @-webkit-keyframes balanco {
-	0% {-webkit-transform: rotate(-10deg); }
-	25% {-webkit-transform: rotate(30deg); }
-	50% {-webkit-transform: rotate(-40deg); }
-	75% {-webkit-transform: rotate(30deg); }
-	100% {-webkit-transform: rotate(-10deg); }
+	0% {-webkit-transform: rotate(0deg); }
+	25% {-webkit-transform: rotate(40deg); }
+	50% {-webkit-transform: rotate(-30deg); }
+	75% {-webkit-transform: rotate(40deg); }
+	100% {-webkit-transform: rotate(-30deg); }
 }
 
 .container {
